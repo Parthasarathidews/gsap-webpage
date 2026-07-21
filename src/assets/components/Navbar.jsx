@@ -25,7 +25,7 @@ const Navbar = () => {
   });
   return (
     <nav>
-      <div>
+      <div className="w-[95%] mx-auto">
         <a href="#home" className="flex items-center gap-2">
           <img src={logo} alt="logo" />
           <p>Velvet pour</p>
