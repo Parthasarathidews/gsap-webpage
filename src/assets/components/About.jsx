@@ -34,7 +34,7 @@ const About = () => {
   });
 
   return (
-    <div id="about">
+    <div id="about" className="max-lg:max-w-[95%]">
       <div className="mb-16 md:px-0 pc-5">
         <div className="content">
           <div className="md:col-span-8">

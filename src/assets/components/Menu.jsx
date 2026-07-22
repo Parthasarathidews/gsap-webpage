@@ -92,7 +92,7 @@ const Menu = () => {
         })}
       </nav>
 
-      <div className="content">
+      <div className="content max-lg:max-w-[98%] ">
         <div className="arrows">
           <button
             className="text-left"
@@ -123,7 +123,7 @@ const Menu = () => {
           <img src={currentCocktail.image} className="object-contain" />
         </div>
 
-        <div className="recipe">
+        <div className="recipe mt-[5%]">
           <div ref={contentRef} className="info">
             <p>Recipe for:</p>
             <p id="title">{currentCocktail.name}</p>

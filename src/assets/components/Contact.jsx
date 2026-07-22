@@ -14,7 +14,7 @@ const Contact = () => {
         src="./images/footer-left-leaf.png"
         alt="f-right-leaf"
       />
-      <div className="content">
+      <div className="content max-lg:min-h-auto">
         <h2>Where to Find Us</h2>
         <div>
           <h3>Visit Our Bar</h3>

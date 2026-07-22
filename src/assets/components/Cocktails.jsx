@@ -35,7 +35,7 @@ const Cocktails = () => {
         id="c-right-leaf"
       />
 
-      <div className="list">
+      <div className="list max-lg:max-w-[95%]">
         <div className="popular">
           <h2>Most Popular Cocktails</h2>
           <ul>
